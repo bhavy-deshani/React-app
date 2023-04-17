@@ -10,6 +10,10 @@ export default class ClassComponentMenu extends Component {
             <li><Link to="WelcomeTOClassComponen">Class Compo Intro</Link></li>
             <li><Link to="jsxclasscomponent">JAX Componet</Link></li>
             <li><Link to="ComponentForCard">props</Link></li>
+            <li><Link to="StateClasscomponent">State</Link></li>
+            <li><Link to="LifeCycleInClassComponent">LifeCycleIn</Link></li>
+            <li><Link to="ControlledCompoInClassComponent">Controlled</Link></li>
+            <li><Link to="UnControlledCompoInClassComponent">UnControlled</Link></li>
             
           </ul>
         </div>

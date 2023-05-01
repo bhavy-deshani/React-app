@@ -8,6 +8,9 @@ import StateClasscomponent from './StateClasscomponent'
 import LifeCycleInClassComponent from './LifeCycleInClassComponent'
 import ControlledCompoInClassComponent from './ControlledCompoInClassComponent'
 import UnControlledCompoInClassComponent from './UnControlledCompoInClassComponent'
+import SpreadVsRestComponent from './SpreadVsRestComponent'
+import ClassCompoCompositionVsInheritance from './ClassCompoCompositionVsInheritance'
+import ArrayAccessThrouProps from './ArrayAccessThrouProps'
 
 export default class ClassRoute extends Component {
     render() {
@@ -22,6 +25,9 @@ export default class ClassRoute extends Component {
                         <Route path="LifeCycleInClassComponent" element={<LifeCycleInClassComponent />} />
                         <Route path="ControlledCompoInClassComponent" element={<ControlledCompoInClassComponent />} />
                         <Route path="UnControlledCompoInClassComponent" element={<UnControlledCompoInClassComponent />} />
+                        <Route path="SpreadVsRestComponent" element={<SpreadVsRestComponent />} />
+                        <Route path="ClassCompoCompositionVsInheritance" element={<ClassCompoCompositionVsInheritance />} />
+                        <Route path="ArrayAccessThrouProps" element={<ArrayAccessThrouProps />} />
                        
                     </Route>
                 </Routes>

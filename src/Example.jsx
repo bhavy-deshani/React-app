@@ -9,12 +9,12 @@ export default function Example() {
     <>
       <Navbar />
       <div className="container">
-        <div className='row '>
+        <div className='row my-5 '>
           <div className='col-6'>
-            <Link to="classcomponent"> <MDBBtn color='dark'>Class Component</MDBBtn></Link>
+            <Link to="classcomponent"> <MDBBtn color='dark' className='mx-auto d-block' >Class Component</MDBBtn></Link>
           </div>
           <div className='col-6'>
-            <Link to="classcomponent"> <MDBBtn color='dark'>Functional Component</MDBBtn></Link>
+            <Link to="classcomponent"> <MDBBtn color='dark' className='mx-auto d-block' >Functional Component</MDBBtn></Link>
           </div>
         </div>
       </div>

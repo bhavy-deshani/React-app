@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 export default class PropsClassComponent extends Component {
     render() {
         return (
-            <div>
-                <>
+
+            <>
                 <div className="col-md-4 col-10 mx-auto">
                     <MDBCard className='h-100'>
                         <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay h-100'>
@@ -23,8 +23,8 @@ export default class PropsClassComponent extends Component {
                         </MDBCardBody>
                     </MDBCard>
                 </div>
-                </>
-            </div>
+            </>
+
         )
     }
 }

@@ -8,6 +8,7 @@ import Errorpage from './Errorpage'
 
 
 const ClassComponent = React.lazy(() => import('./Component/ClassComponent/ClassRoute'))
+const FunctionalComponent = React.lazy(() => import('./Component/FunctionalComponent/FunctinalComponentRouter'))
  const MainRoutes = createBrowserRouter([
     {
         path: "/",
@@ -25,6 +26,10 @@ const ClassComponent = React.lazy(() => import('./Component/ClassComponent/Class
             {
                 path:"classcomponent/*",
                 element:<Suspense fallback={<h2>Loading....</h2>}><ClassComponent /></Suspense>
+            },
+            {
+                path:"FunctionalComponent/*",
+                element:<Suspense fallback={<h2>Loading....</h2>}><FunctionalComponent /></Suspense>
             },
         ],
     },

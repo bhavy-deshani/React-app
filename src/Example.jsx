@@ -14,7 +14,7 @@ export default function Example() {
             <Link to="classcomponent"> <MDBBtn color='dark' className='mx-auto d-block' >Class Component</MDBBtn></Link>
           </div>
           <div className='col-6'>
-            <Link to="classcomponent"> <MDBBtn color='dark' className='mx-auto d-block' >Functional Component</MDBBtn></Link>
+            <Link to="Functionalcomponent"> <MDBBtn color='dark' className='mx-auto d-block' >Functional Component</MDBBtn></Link>
           </div>
         </div>
       </div>

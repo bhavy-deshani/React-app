@@ -9,13 +9,15 @@ const FunctinalComponentMenu = () => {
                     <ul>
                         <li><Link to="FunctionalComponentIntro">Functional Compo Intro</Link></li>
                         <li><Link to="UsestateHook">Usestate Hook</Link></li>
-                       
+                        <li><Link to="UseEffectHook">UseEffect Hook</Link></li>
+                        <li><Link to="FunctionalCompoUseLayoutEffect">Functional Compo UseLayoutEffect</Link></li>
+
                     </ul>
 
                 </div>
 
             </div>
-            <Outlet/>
+            <Outlet />
         </>
     )
 }

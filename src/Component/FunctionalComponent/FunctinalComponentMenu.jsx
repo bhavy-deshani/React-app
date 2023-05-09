@@ -11,6 +11,8 @@ const FunctinalComponentMenu = () => {
                         <li><Link to="UsestateHook">Usestate Hook</Link></li>
                         <li><Link to="UseEffectHook">UseEffect Hook</Link></li>
                         <li><Link to="FunctionalCompoUseLayoutEffect">Functional Compo UseLayoutEffect</Link></li>
+                        <li><Link to="StyledCompoExample">style component</Link></li>
+                        <li><Link to="FunctionalCompoUseMemo">Use Memo</Link></li>
 
                     </ul>
 

@@ -7,6 +7,8 @@ import UseEffectHook from './02UseEffectHook'
 import FunctionalCompoUseLayoutEffect from './FunctionalCompoUseLayoutEffect'
 import StyledCompoExample from './StyledCompoExample'
 import FunctionalCompoUseMemo from './FunctionalCompoUseMemo'
+import FunctionalCompoUseCallback from './FunctionalCompoUseCallback'
+import FunctionalCompoUseImp from './FunctionalCompoUseImp'
 
 const FunctinalComponentRouter = () => {
     return (
@@ -19,6 +21,8 @@ const FunctinalComponentRouter = () => {
                     <Route path='FunctionalCompoUseLayoutEffect' element={<FunctionalCompoUseLayoutEffect />} />
                     <Route path='StyledCompoExample' element={<StyledCompoExample />} />
                     <Route path='FunctionalCompoUseMemo' element={<FunctionalCompoUseMemo />} />
+                    <Route path='FunctionalCompoUseCallback' element={<FunctionalCompoUseCallback />} />
+                    <Route path='FunctionalCompoUseImp' element={<FunctionalCompoUseImp />} />
 
                 </Route>
             </Routes>
